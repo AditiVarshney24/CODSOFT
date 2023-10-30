@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;   
+    box-sizing: border-box;
+};
+
+body{
+    box-shadow: 0 0 15px blue;
+}
+.calculator{
+border: 3px solid rgb(20, 12, 137);
+margin-left: 35%;
+margin-right: 35%;
+    border-radius: 5%;
+    background-color: blue ;
+}
+.button{
+    width: 64px;
+    padding: 18px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: large;
+
+}
+.row{
+    margin: 7px 0;
+}
+.row input{
+    width: 290px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
